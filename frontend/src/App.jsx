@@ -17,11 +17,11 @@ function App() {
         <AppHeader />
       </header>
       <main>
-<BrowserRouter>
+<BrowserRouter basename={"/proj001"}>
 <Routes>
-  <Route path='proj001/' element={<AppLanding/>}></Route>
-  <Route path='proj001/features' element={<AppFeatures/>}></Route>
-  <Route path='proj001/*' element={<AppNotFound/>}></Route>
+  <Route path='/' element={<AppLanding/>}></Route>
+  <Route path='/features' element={<AppFeatures/>}></Route>
+  <Route path='/*' element={<AppNotFound/>}></Route>
 </Routes>
 </BrowserRouter>
       </main>
