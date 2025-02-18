@@ -5,9 +5,9 @@
   "type": "module",
   "homepage": "https://al-vait1235711.github.io/proj001",
   "scripts": {
-   
+    "dev": "vite",
     "build": "vite build",
-    
+    "lint": "eslint .",
     "preview": "vite preview --port 8080"
   },
   "dependencies": {
