@@ -19,9 +19,9 @@ function App() {
       <main>
 <BrowserRouter>
 <Routes>
-  <Route path='/' element={<AppLanding/>}></Route>
-  <Route path='/features' element={<AppFeatures/>}></Route>
-  <Route path='/*' element={<AppNotFound/>}></Route>
+  <Route path='proj001/' element={<AppLanding/>}></Route>
+  <Route path='proj001/features' element={<AppFeatures/>}></Route>
+  <Route path='proj001/*' element={<AppNotFound/>}></Route>
 </Routes>
 </BrowserRouter>
       </main>
