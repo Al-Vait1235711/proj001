@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Router } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css'
 import AppHeader from './components/global/header'
