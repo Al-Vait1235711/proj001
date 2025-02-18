@@ -11,6 +11,7 @@ function AppHeader() {
 
   useEffect(() => {
     const currentpage = window.location.pathname;
+    console.log(currentpage);
     if (currentpage === "/") {
       setHpage(true);
       
