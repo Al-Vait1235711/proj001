@@ -40,7 +40,7 @@ function AppAbout() {
                     <Card.Text>{aboutapp.description[0]}</Card.Text>
                     <Card.Text>{aboutapp.description[1]}</Card.Text>
                     <div className='btn-gap'>
-                    <Button href='/features' variant="btn btn-primary">See features</Button>
+                    <Button href='/proj001/features' variant="btn btn-primary">See features</Button>
                     <Button variant="btn btn-secondary">Read the docs</Button>
                     </div>
                   </Card.Body>
