@@ -30,7 +30,7 @@ function AppHeader() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link active={hpage} href="/1" >Home</Nav.Link>
+            <Nav.Link active={hpage} href="/" >Home</Nav.Link>
             <Nav.Link active={fpage} href="/features">Features</Nav.Link>
             <NavDropdown title="More" id="basic-nav-dropdown">
               <NavDropdown.Item href="#/docs">Docs</NavDropdown.Item>
