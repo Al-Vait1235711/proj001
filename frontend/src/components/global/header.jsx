@@ -12,10 +12,10 @@ function AppHeader() {
   useEffect(() => {
     const currentpage = window.location.pathname;
     console.log(currentpage);
-    if (currentpage === "/") {
+    if (currentpage === "/proj001/") {
       setHpage(true);
       
-    } else if (currentpage === "/features") {
+    } else if (currentpage === "/proj001/features") {
       setFpage(true);
     } else {
       setFpage(false);
@@ -30,8 +30,8 @@ function AppHeader() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link active={hpage} href="/" >Home</Nav.Link>
-            <Nav.Link active={fpage} href="/features">Features</Nav.Link>
+            <Nav.Link active={hpage} href="/proj001/" >Home</Nav.Link>
+            <Nav.Link active={fpage} href="/proj001/features">Features</Nav.Link>
             <NavDropdown title="More" id="basic-nav-dropdown">
               <NavDropdown.Item href="#/docs">Docs</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
