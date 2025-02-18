@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { BrowserRouter, Routes, Route, Router } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css'
 import AppHeader from './components/global/header'
@@ -17,13 +17,13 @@ function App() {
         <AppHeader />
       </header>
       <main>
-<Router>
+<BrowserRouter>
 <Routes>
   <Route path='/proj001' element={<AppLanding/>}></Route>
   <Route path='/proj001/features' element={<AppFeatures/>}></Route>
   <Route path='/*' element={<AppNotFound/>}></Route>
 </Routes>
-</Router>
+</BrowserRouter>
       </main>
       <footer id='footer'>
         <AppFooter />
