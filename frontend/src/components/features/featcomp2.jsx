@@ -39,7 +39,7 @@ function AppDemo() {
                     <Card.Title className='title-holder'>{aboutapp.title}</Card.Title>
                     <Card.Text>{aboutapp.description[0]}</Card.Text>
                     <div className='btn-gap' style={{marginBottom:"10px"}}>
-                    <Button href='/features' variant="btn btn-primary">Try it free!</Button>
+                    <Button href='/proj001/features' variant="btn btn-primary">Try it free!</Button>
                     </div>
                     <Card.Text>{aboutapp.description[1]}</Card.Text>
                   </Card.Body>
